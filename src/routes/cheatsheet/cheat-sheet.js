@@ -53,8 +53,8 @@ export const cheatSheet = [
 
 <p>My e-mail is {email}</p>
 <p>{user.name}</p>
-<p>{cat}s</p>
-<p>name {user.name}</p>`
+<p>{cat + "s"}</p>
+<p>{\`name ${user.name}\`}</p>`
 	},
 	{
 		title: 'Simple Bind',
